@@ -223,12 +223,22 @@ ul li a:hover {
 }
 
 .projects-section .project{
-    height: 280px;
+    height: 380px;
     display: flex;
+    padding-top: 5px;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    background-color: #000000;
+    border: 1px solid rgb(70, 69, 69);
+    border-radius: 5px;
     box-shadow: 0 0 10px 0px rgba(6, 6, 6, 0.3);
+}
+.project img{
+    border-bottom: 10px solid #ffffff;
+}
+.project p{
+    color: white;
 }
 .project h3, .project a{
     color: #f3961c;
@@ -434,7 +444,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items:flex-start;
-        height: 165vh;
+        height: 115vh;
         padding-top: 20px;
     }
     .main-section .text-content{
@@ -496,7 +506,7 @@ footer {
       }
   
       .contact-section a {
-        width: 180px;
+        width: 170px !important;
         height: 110px;
       }
   
@@ -523,5 +533,10 @@ footer {
       .contact-section a {
         padding: 10px 0;
         width: 200px;
+      }
+
+      .go-top{
+        top: 850px;
+        left: 350px;
       }
 }
