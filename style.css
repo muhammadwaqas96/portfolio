@@ -444,7 +444,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items:flex-start;
-        height: 115vh;
+        height: 120vh;
         padding-top: 20px;
     }
     .main-section .text-content{
@@ -536,7 +536,7 @@ footer {
       }
 
       .go-top{
-        top: 850px;
+        top: 830px;
         left: 350px;
       }
 }
