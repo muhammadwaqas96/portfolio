@@ -469,10 +469,10 @@ footer {
     }
 
     /* about */
-    .about-section{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
+    /* .about-section{
+        padding-left: 40px;
+        pad
+    } */
     .education-detail{
         padding-top: 30px;
         display: flex;
@@ -487,7 +487,7 @@ footer {
     }
     .education-detail p{
         padding: 10px 15px 10px;
-        width: 370px;
+        width: 320px;
         font-size: 13px;
     }
 
